@@ -85,7 +85,7 @@ class SectionHeader extends StatelessWidget {
               color: Color(0xFFFFC0CB),
             ),
           ),
-          const Divider(color: Color(0xFFFFC0CB)),
+          const Divider(color: Color.fromARGB(255, 235, 174, 184)),
         ],
       ),
     );
