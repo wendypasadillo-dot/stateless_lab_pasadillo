@@ -102,7 +102,7 @@ class InfoRow extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Icon(icon, size: 18, color: const Color(0xFFFFC0CB)),
+        Icon(icon, size: 18, color: const Color.fromARGB(255, 240, 178, 189)),
         const SizedBox(width: 8),
         Expanded(child: Text(text)),
       ],
