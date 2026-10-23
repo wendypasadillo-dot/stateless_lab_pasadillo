@@ -3,4 +3,4 @@
 **Name:** WENDY PASADILLO
 **Activity:** LABORATORY ACTIVITY 2
 
-![App screenshot](screenshot/app.png)
+![App screenshot](screenshot/app.png.png)

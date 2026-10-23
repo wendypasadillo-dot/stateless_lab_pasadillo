@@ -22,6 +22,7 @@ const students = [
   Student(name: 'Jonard Osa', course: 'BSIS', yearLevel: 4, email: 'jonard.osa@csucc.edu.ph'),
   Student(name: 'Alex Camacho', course: 'BSCE', yearLevel: 1, email: 'alex.camacho@csucc.edu.ph'),
   Student(name: 'Khen Lumindas', course: 'BSDS', yearLevel: 2, email: 'khen.lumindas@csucc.edu.ph'),
+  Student(name: 'Renzel Dela Cruz', course: 'BSIT', yearLevel: 3, email: 'renzel.dela.cruz@csucc.edu.ph'),
 ];
 
 // Main app
@@ -33,7 +34,7 @@ class DirectoryApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorSchemeSeed: const Color(0xFFFFC0CB),
+        colorSchemeSeed: Colors.deepPurple,
         useMaterial3: true,
         scaffoldBackgroundColor: Colors.white,
       ),
